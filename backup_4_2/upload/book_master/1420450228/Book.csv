@@ -1,0 +1,4 @@
+user_id,name,date,company,phone,industry_type,email,address,position,city,state,zip,country,machine_type,machine_subtype,machine_other,machine_make,model,year_of_manufacture,shift_of_operation,hours_per_shift,production_per_month,break_down_time_per_month,service_response_time,spare_part_availability,damaged_part_repairing,spare_part_delivery_time,satisfaction_with_machine,satisfaction_with_service,satisfaction_with_service_tech,comments,signature
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32

@@ -1,0 +1,112 @@
+﻿#control_7 + .multiSelectOptions, .subscribe_main .subscribe_ul > li .multiSelectOptions, .issues_24 .multiSelectOptions{width: 48.1%;}
+.issues_24_half .multiSelectOptions{width: 257px;}
+
+a.multiSelect 
+{
+    border: 0 none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: black !important;
+    font-size: 14px;
+    line-height: 13px;
+    padding: 7px 8px 8px;
+    width: 257px;
+    background:#fff url(../images/arrow_dn.png) no-repeat right center;
+    display:block;
+	border:1px solid black;
+    }
+
+#subscribe_free a.multiSelect, .issues_24_half a.multiSelect, .issues_24 a.multiSelect, #subscribe_footer_modal a.multiSelect {
+  background: url(../images/arrow_dn.png) no-repeat scroll right center #e7e8e9;
+  border: 0 none;
+  box-sizing: border-box;
+  color: black !important;
+  display: block;
+  font-size: 14px;
+  line-height: 13px;
+  padding: 13px 16px 9px;
+  width: 257px;
+  border:1px solid black;
+}
+/*#subscribe_free a.multiSelect.hover, .issues_24_half a.multiSelect.hover, .issues_24 a.multiSelect.hover {
+	background:#e7e8e9 url(../images/arrow_up.png) no-repeat right center;
+}*/
+#subscribe_free a.multiSelect.active, .issues_24_half a.multiSelect.active, .issues_24 a.multiSelect.active, #subscribe_footer_modal a.multiSelect.active {
+	text-decoration: none;background:#e7e8e9 url(../images/arrow_up.png) no-repeat right center;
+}
+
+a.multiSelect.active {
+	color: black;
+	text-decoration: none;background:#fff url(../images/arrow_up.png) no-repeat right center;
+}
+
+a.multiSelect span
+{
+	overflow: hidden;
+	display: -moz-inline-stack;
+	display: inline-block;
+	white-space: nowrap;
+	width:257px;
+}
+
+/*a.multiSelect.hover {
+	background:#fff url(../images/arrow_up.png) no-repeat right center;
+}
+*/
+
+
+.multiSelectOptions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #d1d3d4;
+	width:257px;
+}
+
+.multiSelectOptions LABEL {
+color: #414042;
+display: block;
+font-size: 15px;
+line-height: 20px;
+overflow: hidden;
+text-align: left;
+text-overflow: ellipsis;
+white-space: nowrap;
+padding:9px 0px 6px;
+margin:0 16px;
+border-bottom:1px solid #9b9da0;
+}
+
+.multiSelectOptions LABEL.optGroup
+{
+	font-weight: bold;
+        color: #414042;
+        text-transform: capitalize;
+}
+
+.multiSelectOptions .optGroupContainer LABEL
+{
+	padding-left: 10px;
+}
+
+.multiSelectOptions.optGroupHasCheckboxes .optGroupContainer LABEL
+{
+	padding-left: 18px;
+}
+
+.multiSelectOptions input{
+	vertical-align: middle;  margin-right: 12px; margin-top:-2px;
+}
+
+.multiSelectOptions LABEL.checked {
+	background-color: #fff;
+}
+
+.multiSelectOptions LABEL.selectAll {
+	border-bottom:1px solid #9b9da0;
+}
+
+.multiSelectOptions LABEL.hover {
+	background-color: #fff;
+	color: #414042;
+}
